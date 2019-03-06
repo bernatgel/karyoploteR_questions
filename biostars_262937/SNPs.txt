@@ -1,0 +1,7 @@
+Chr	Pos	Frequency
+chr1A	15305	4
+chr1A	168836	7
+chr1A	515835	1
+chr1A	515850	3
+chr1A	837522	4
+chr1A	842901	7
