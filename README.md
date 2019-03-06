@@ -5,3 +5,4 @@ Data, code and images used to answer questions about karyoploteR by email, on bi
 
 - Biostars
   * [Plotting overlapping genomic segments in R](https://www.biostars.org/p/367522/) [[biostars_367255](https://github.com/bernatgel/karyoploteR_questions/tree/master/biostars_367522)]
+  * [Visualizing CNV data based from bed or bedgraph format](https://www.biostars.org/p/361937/) [[biostars_361937](https://github.com/bernatgel/karyoploteR_questions/tree/master/biostars_361937)]
