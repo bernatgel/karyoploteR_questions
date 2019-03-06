@@ -1,0 +1,11 @@
+chr	start	end	name	gieStain
+4A	1	10000000	test	 
+1A	48588720	57764717	Ae_tauschii_242	 
+1A	5.51E+08	555641708	Ae_Biuncialis_550957	 
+1A	5.72E+08	576343725	Ae_Sharonensis_2170007	 
+1B	1.2E+08	120881576	Ae_speltoides_2140004	 
+1B	1.2E+08	120881576	Ae_speltoides_2140006	 
+1B	1.2E+08	120881576	Ae_Speltoides_2140008_P09	 
+1B	1.2E+08	120881576	Ae_speltoides_2140019	 
+1B	1.2E+08	120881576	Ae_speltoides_2140027	 
+1B	1.2E+08	120881576	Ae_speltoides_369666	 
