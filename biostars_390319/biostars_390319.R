@@ -8,7 +8,7 @@ genes.to.plot <- toGRanges(genes.to.plot[c(2,3,4,1)])
 #Create a custom genome with only your chromosome
 custom.genome <- toGRanges("4:1-135060000")
 
-png("whole.chr.png", width=1000, height=1000)
+png("whole.chr.png", width=800, height=500)
   #start plotting
   kp <- plotKaryotype(genome = custom.genome)
   
@@ -20,7 +20,7 @@ png("whole.chr.png", width=1000, height=1000)
 dev.off()
 
 
-png("zoom.png", width=1000, height=1000)
+png("zoom.png", width=800, height=500)
   #start plotting
   kp <- plotKaryotype(genome = custom.genome, zoom="4:1-10000")
   
