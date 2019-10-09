@@ -1,0 +1,4 @@
+#CHROM  POS REF ALT Sample1 Sample2 Sample3
+1       635  A   T    T        T      T 
+1       800  T   A    A        NA     A 
+1       1234 G   C    C        C      C
