@@ -1,0 +1,3 @@
+Cust	20	35	rangeA
+Cust	50	80	rangeB
+Cust	40	47	rangeC

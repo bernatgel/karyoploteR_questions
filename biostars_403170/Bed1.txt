@@ -1,0 +1,3 @@
+Cust	1	15	range1
+Cust	30	35	range2
+Cust	100	120	range3
