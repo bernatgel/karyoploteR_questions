@@ -15,3 +15,12 @@ png("biostars_409028_chr1.png", width=1000, height=500)
   kpAxis(kp, ymin = 0, ymax=100)
   kpPoints(kp, my.data, y=my.data$frag, ymin=0, ymax=100)
 dev.off()
+
+
+png("biostars_409028_chr1_loess.png", width=1000, height=500)
+  kp <- plotKaryotype("hg19", chromosomes = "chr1", main="Chromosome 1")
+  kpAxis(kp, ymin = 0, ymax=100)
+  kpPlotLoess(kp, my.data, y=my.data$frag, ymin=0, ymax=100, ci.col = transparent("orchid"))
+  point.colors <- colByValue(my.data$frag, colors = c("green", "black","red"), min = 40, max=80)
+  kpPoints(kp, my.data, y=my.data$frag, ymin=0, ymax=100, col=point.colors)
+dev.off()
