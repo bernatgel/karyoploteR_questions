@@ -1,12 +1,10 @@
 library(karyoploteR)
 
-
 cn.regs <- sort(createRandomRegions(nregions = 100))
 
 cyto <- getCytobands(genome="hg19")
-
-#remove the unneded cytoband names 
-cyto$name[!overlapsAny(cyto, cn.regs)] <- ""
+#remove the unneded cytobands
+cyto <- cyto[overlapsAny(cyto, cn.regs)]
 
 png(file="selected.cytobands.png", width=1000, height=300)
   kp <- plotKaryotype(chromosomes = c("chr15", "chr16", "chr17"))
