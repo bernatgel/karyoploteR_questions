@@ -1,0 +1,6 @@
+chr start end name gieStain
+Chr_22 42126499 42130881 CYP2D6 stalk
+Chr_22 42126490 42126623 qPCR acen
+Chr_22 42126077 42126157 PCR acen
+Chr_22 1 50818469 Chr_22 gvar
+
