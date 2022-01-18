@@ -34,3 +34,7 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+
+
+#Files sent to fix bugs
+github_issue_56/1MB_Z_Li_Ra.txt
